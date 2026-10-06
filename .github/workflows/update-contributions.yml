@@ -1,0 +1,42 @@
+name: Update contribution graphic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate contribution SVG
+        run: python scripts/generate_contributions.py --username wasatnight --output assets/contributions.svg
+
+      - name: Commit the updated graphic
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/contributions.svg; then
+            echo "Contribution graphic is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions.svg
+          git commit -m "chore: refresh contribution graphic"
+          git push
