@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Ivan Solano Diaz terminal profile</title>
+  <desc id="desc">A custom terminal-inspired profile card introducing Ivan Solano Diaz, Software Developer and Digital Designer in Pachuca, Mexico.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111018"/>
+      <stop offset="0.52" stop-color="#171320"/>
+      <stop offset="1" stop-color="#0d0c12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a979ff"/>
+      <stop offset="1" stop-color="#d7bfff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".025"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="window"><rect x="24" y="24" width="1152" height="452" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .label { fill: #9c96aa; font-size: 17px; letter-spacing: 1px; }
+    .value { fill: #f2ecdf; font-size: 19px; }
+    .prompt { fill: #b993ff; font-size: 18px; }
+    .line { opacity: 0; animation: reveal .55s ease forwards; }
+    .l1 { animation-delay: .15s; } .l2 { animation-delay: .35s; } .l3 { animation-delay: .55s; }
+    .l4 { animation-delay: .75s; } .l5 { animation-delay: .95s; } .l6 { animation-delay: 1.15s; }
+    .cursor { animation: blink 1.05s steps(1) infinite; }
+    .scan { animation: scan 7s linear infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
+    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(560px); } }
+    @media (prefers-reduced-motion: reduce) { .line { opacity: 1; animation: none; } .cursor,.scan { animation: none; } }
+  </style>
+
+  <rect width="1200" height="500" rx="28" fill="#09080d"/>
+  <rect x="24" y="24" width="1152" height="452" rx="22" fill="url(#shell)" stroke="#3d3152" stroke-width="2"/>
+  <g clip-path="url(#window)">
+    <rect x="24" y="24" width="1152" height="452" fill="url(#grid)"/>
+    <rect class="scan" x="24" y="0" width="1152" height="48" fill="url(#accent)" opacity=".035"/>
+  </g>
+
+  <circle cx="58" cy="56" r="7" fill="#ff6b7a"/>
+  <circle cx="82" cy="56" r="7" fill="#f4c95d"/>
+  <circle cx="106" cy="56" r="7" fill="#70d49b"/>
+  <text x="600" y="63" text-anchor="middle" class="mono" fill="#817a8c" font-size="14">ivan@pachuca — profile.sh</text>
+  <line x1="24" y1="86" x2="1176" y2="86" stroke="#3d3152"/>
+
+  <g class="mono" transform="translate(78 128)">
+    <text x="0" y="0" fill="#c7a9ff" font-size="22" filter="url(#glow)">╭────────────────────────────╮</text>
+    <text x="0" y="30" fill="#b993ff" font-size="22">│  ██╗ ███████╗ ██████╗      │</text>
+    <text x="0" y="60" fill="#a87cf5" font-size="22">│  ██║ ██╔════╝ ██╔══██╗     │</text>
+    <text x="0" y="90" fill="#9568dc" font-size="22">│  ██║ ███████╗ ██║  ██║     │</text>
+    <text x="0" y="120" fill="#8356c4" font-size="22">│  ██║ ╚════██║ ██║  ██║     │</text>
+    <text x="0" y="150" fill="#7044aa" font-size="22">│  ██║ ███████║ ██████╔╝     │</text>
+    <text x="0" y="180" fill="#634092" font-size="22">│  ╚═╝ ╚══════╝ ╚═════╝      │</text>
+    <text x="0" y="210" fill="#8f7baa" font-size="22">╰────────────────────────────╯</text>
+    <text x="20" y="248" fill="#766c82" font-size="14" letter-spacing="3">CODE × DESIGN × PURPOSE</text>
+  </g>
+
+  <g class="mono" transform="translate(550 128)">
+    <text class="prompt line l1" x="0" y="0">$ whoami</text>
+    <text class="line l2" x="0" y="35" fill="#f2ecdf" font-size="27" font-weight="700">Ivan Solano Diaz</text>
+    <rect class="line l2" x="0" y="49" width="420" height="3" rx="2" fill="url(#accent)"/>
+
+    <text class="label line l3" x="0" y="88">role</text>
+    <text class="value line l3" x="126" y="88">Software Developer &amp; Digital Designer</text>
+    <text class="label line l4" x="0" y="124">location</text>
+    <text class="value line l4" x="126" y="124">Pachuca, Mexico</text>
+    <text class="label line l4" x="0" y="160">focus</text>
+    <text class="value line l4" x="126" y="160">Backend · Web · AI Integration</text>
+    <text class="label line l5" x="0" y="196">stack</text>
+    <text class="value line l5" x="126" y="196">Python · FastAPI · PostgreSQL</text>
+    <text class="value line l5" x="126" y="228">JavaScript · HTML/CSS</text>
+    <text class="label line l6" x="0" y="269">status</text>
+    <circle class="line l6" cx="134" cy="263" r="6" fill="#70d49b"/>
+    <text class="value line l6" x="150" y="269">Open to remote opportunities</text>
+    <text class="prompt line l6" x="0" y="318">$ build --useful --human</text>
+    <rect class="cursor" x="331" y="301" width="11" height="21" rx="1" fill="#d7bfff"/>
+  </g>
+</svg>
