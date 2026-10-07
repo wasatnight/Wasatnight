@@ -25,6 +25,7 @@ ivan@pachuca:~$ ls ./selected-work
 | **[SupportFlow AI](https://github.com/wasatnight/supportflow-ai)** | Desktop customer-support system with a REST API, PostgreSQL persistence, and local AI suggestions with human review. | `Python` `FastAPI` `PySide6` `PostgreSQL` `Ollama` | Public |
 | **[CiberPráctico](https://ciberpractico.com)** | Practical cybersecurity education for freelancers and small businesses, including an interactive learning experience. | `HTML` `CSS` `JavaScript` `Node.js` | Live |
 | **[Grupo SI](https://gruposichih.com.mx)** | Responsive real-estate platform with property discovery, filters, listing pages, and direct contact paths. | `JavaScript` `TypeScript` `Supabase` | Live |
+| **[Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)** | Content-rich responsive website for an independent therapeutic practice, with clear navigation and direct appointment contact. | `HTML5` `CSS3` `JavaScript` `Supabase` | Live |
 | **[TrackBet](https://github.com/wasatnight/trackbet-desktop)** | Desktop tracker for bankroll, ROI, straight bets, and parlays. | `React` `FastAPI` `SQLite` | Work in progress |
 
 ```text
@@ -52,7 +53,7 @@ ivan@pachuca:~$ ./contributions --year=current
 ivan@pachuca:~$ ./connect
 ```
 
-[GitHub](https://github.com/wasatnight) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx)
+[GitHub](https://github.com/wasatnight) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx) · [Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)
 
 <!--
 Portfolio and LinkedIn are intentionally omitted until their public URLs are verified.
