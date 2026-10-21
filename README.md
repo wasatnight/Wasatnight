@@ -24,6 +24,7 @@ ivan@pachuca:~$ ls ./selected-work
 
 | Project | What it does | Stack | Status |
 | :-- | :-- | :-- | :-- |
+| **[VoxTexto](https://github.com/wasatnight/voxtexto)** | Local audio transcription with editable timestamped segments and TXT, DOCX, and PDF exports. | `React` `TypeScript` `Transformers.js` `Whisper` | Public source · v0.3.0 |
 | **[SupportFlow AI](https://github.com/wasatnight/supportflow-ai)** | Desktop customer-support system with a REST API, PostgreSQL persistence, and local AI suggestions with human review. | `Python` `FastAPI` `PySide6` `PostgreSQL` `Ollama` | Public |
 | **[CiberPráctico](https://ciberpractico.com)** | Practical cybersecurity education for freelancers and small businesses, including an interactive learning experience. | `HTML` `CSS` `JavaScript` `Node.js` | Live |
 | **[Grupo SI](https://gruposichih.com.mx)** | Responsive real-estate platform with property discovery, filters, listing pages, and direct contact paths. | `JavaScript` `TypeScript` `Supabase` | Live |
@@ -55,7 +56,7 @@ ivan@pachuca:~$ ./contributions --year=current
 ivan@pachuca:~$ ./connect
 ```
 
-[GitHub](https://github.com/wasatnight) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx) · [Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)
+[GitHub](https://github.com/wasatnight) · [VoxTexto](https://github.com/wasatnight/voxtexto) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx) · [Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)
 
 <!--
 Portfolio and LinkedIn are intentionally omitted until their public URLs are verified.
