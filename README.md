@@ -10,10 +10,12 @@
 ivan@pachuca:~$ ./about --short
 ```
 
-I build practical software with an eye for clear interfaces and useful outcomes. My work sits between backend engineering, product thinking, and digital design—from local-AI desktop tools to responsive web products.
+I turn real needs into functional digital solutions, combining software, design, and technology. I build applications and websites that help people work through everyday problems, with clear interfaces and practical outcomes.
+
+Transformo necesidades reales en soluciones digitales funcionales, combinando software, diseño y tecnología. Desarrollo aplicaciones y páginas web pensadas para ayudar a las personas.
 
 - Based in **Pachuca, Mexico** · available for remote opportunities
-- Working with **Python, FastAPI, PostgreSQL, JavaScript, HTML/CSS, and AI integrations**
+- Working with **Python, FastAPI, PostgreSQL, React, TypeScript, JavaScript, HTML/CSS, and local AI integrations**
 - Interested in backend, full-stack, automation, and product-focused software roles
 
 ```text
@@ -34,8 +36,8 @@ ivan@pachuca:~$ cat ./toolbox
 
 ```text
 BACKEND      Python · FastAPI · PostgreSQL · SQLAlchemy · REST APIs
-FRONTEND     JavaScript · HTML5 · CSS3 · React
-AI           Local models · Ollama · AI-assisted workflows
+FRONTEND     React · TypeScript · JavaScript · HTML5 · CSS3
+AI           Whisper · Transformers.js · Ollama · local inference
 PRACTICE     Git · GitHub Actions · pytest · product-minded design
 ```
 
