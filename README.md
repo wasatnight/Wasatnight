@@ -24,12 +24,14 @@ ivan@pachuca:~$ ls ./selected-work
 
 | Project | What it does | Stack | Status |
 | :-- | :-- | :-- | :-- |
+| **[FotoLista](https://github.com/wasatnight/FotoLista)** | Windows desktop app for batch image compression, resizing, and format conversion, with before/after previews and safe exports that preserve originals. | `Python` `PySide6` `Pillow` `pillow-heif` | Public source · v1.0.2 |
 | **[VoxTexto](https://github.com/wasatnight/voxtexto)** | Local audio transcription with editable timestamped segments and TXT, DOCX, and PDF exports. | `React` `TypeScript` `Transformers.js` `Whisper` | Public source · v0.3.0 |
 | **[SupportFlow AI](https://github.com/wasatnight/supportflow-ai)** | Desktop customer-support system with a REST API, PostgreSQL persistence, and local AI suggestions with human review. | `Python` `FastAPI` `PySide6` `PostgreSQL` `Ollama` | Public |
 | **[CiberPráctico](https://ciberpractico.com)** | Practical cybersecurity education for freelancers and small businesses, including an interactive learning experience. | `HTML` `CSS` `JavaScript` `Node.js` | Live |
 | **[Grupo SI](https://gruposichih.com.mx)** | Responsive real-estate platform with property discovery, filters, listing pages, and direct contact paths. | `JavaScript` `TypeScript` `Supabase` | Live |
 | **[Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)** | Content-rich responsive website for an independent therapeutic practice, with clear navigation and direct appointment contact. | `HTML5` `CSS3` `JavaScript` `Supabase` | Live |
 | **[TrackBet](https://github.com/wasatnight/trackbet-desktop)** | Desktop tracker for bankroll, ROI, straight bets, and parlays. | `React` `FastAPI` `SQLite` | Work in progress |
+| **[Portfolio](https://github.com/wasatnight/wasatnight.github.io)** | Responsive bilingual developer portfolio with selected projects, experience, credentials, and a print-ready résumé. | `HTML` `CSS` `JavaScript` | Public source |
 
 ```text
 ivan@pachuca:~$ cat ./toolbox
@@ -56,7 +58,7 @@ ivan@pachuca:~$ ./contributions --year=current
 ivan@pachuca:~$ ./connect
 ```
 
-[GitHub](https://github.com/wasatnight) · [VoxTexto](https://github.com/wasatnight/voxtexto) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx) · [Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)
+[GitHub](https://github.com/wasatnight) · [Portfolio](https://github.com/wasatnight/wasatnight.github.io) · [FotoLista](https://github.com/wasatnight/FotoLista) · [VoxTexto](https://github.com/wasatnight/voxtexto) · [SupportFlow AI](https://github.com/wasatnight/supportflow-ai) · [CiberPráctico](https://ciberpractico.com) · [Grupo SI](https://gruposichih.com.mx) · [Radiestesia Molecular Integral](https://radiestesiamolecularintegral.com.mx)
 
 <!--
 Portfolio and LinkedIn are intentionally omitted until their public URLs are verified.
@@ -66,3 +68,4 @@ Add them to the connect line above once available.
 <div align="center">
   <sub>Software Developer &amp; Digital Designer · building useful things with code and visual intent.</sub>
 </div>
+
