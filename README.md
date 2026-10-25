@@ -25,6 +25,8 @@ ivan@pachuca:~$ ls ./selected-work
 | Project | What it does | Stack | Status |
 | :-- | :-- | :-- | :-- |
 | **[FotoLista](https://github.com/wasatnight/FotoLista)** | Windows desktop app for batch image compression, resizing, and format conversion, with before/after previews and safe exports that preserve originals. | `Python` `PySide6` `Pillow` `pillow-heif` | Public source · v1.0.2 |
+| **[Ordena](https://github.com/wasatnight/Ordena)** | Offline Windows app for organizing files into categories, with move previews, customizable rules, and persistent undo. | `Python` `PySide6` `SQLite` | Public source · v1.1.1 |
+| **[PDF de Bolsillo](https://github.com/wasatnight/PDF-de-Bolsillo)** | Local Windows app to merge, split, extract, reorder, and rotate PDF pages, and convert images to PDF. Spanish and English interface. | `C#` `.NET` `WPF` `PDFsharp` | Public source · v0.2.1 |
 | **[VoxTexto](https://github.com/wasatnight/voxtexto)** | Local audio transcription with editable timestamped segments and TXT, DOCX, and PDF exports. | `React` `TypeScript` `Transformers.js` `Whisper` | Public source · v0.3.0 |
 | **[SupportFlow AI](https://github.com/wasatnight/supportflow-ai)** | Desktop customer-support system with a REST API, PostgreSQL persistence, and local AI suggestions with human review. | `Python` `FastAPI` `PySide6` `PostgreSQL` `Ollama` | Public |
 | **[CiberPráctico](https://ciberpractico.com)** | Practical cybersecurity education for freelancers and small businesses, including an interactive learning experience. | `HTML` `CSS` `JavaScript` `Node.js` | Live |
